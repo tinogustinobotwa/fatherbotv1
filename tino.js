@@ -1658,7 +1658,7 @@ break
        case 'z':
        case '.':
        
-       if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+       
        break
                       ////NEW UPDATE COPAS DARI XINZ
                       case 'threats':
@@ -2628,7 +2628,7 @@ await limitAdd(sender)
 
 
 thu = await tino.getStatus(`${sender.split('@')[0]}@s.whatsapp.net`, MessageType.text)
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+
        groups = tino.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = tino.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
               ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
@@ -4988,7 +4988,7 @@ await limitAdd(sender)
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-   if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+   
 if (args.length == 0) return reply(`Example: ${prefix + command} Jakarta`)
     query = args.join(" ")
     get_result = await fetchJson(`https://api.lolhuman.xyz/api/kodepos?apikey=fatherbot&query=${query}`)
@@ -5011,7 +5011,7 @@ if (isBanned) return reply("ANDA TELAH DI BANNED, HUBUNGI OWNER")
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+
 if (args.length == 0) return reply(`Example: ${prefix + command} JAKARTA BALI`)
     txt1 = args[0]
     txt2 = args[1]
@@ -5034,7 +5034,7 @@ if (isBanned) return reply("ANDA TELAH DI BANNED, HUBUNGI OWNER")
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+
 buff = await getBuffer ('https://api.lolhuman.xyz/api/meme/darkjoke?apikey=fatherbot')
 
 buttons = [{buttonId: `${prefix}darkmeme`,buttonText:{displayText: `NEXT`},type:1}]
@@ -5051,7 +5051,7 @@ if (isBanned) return reply("ANDA TELAH DI BANNED, HUBUNGI OWNER")
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+
 if (args.length == 0) return reply(`Example: ${prefix + command} Pubg`)
     query = args.join(" ")
     get_result = await fetchJson(`https://api.lolhuman.xyz/api/playstore?apikey=fatherbot&query=${query}`)
@@ -5070,7 +5070,7 @@ if (args.length == 0) return reply(`Example: ${prefix + command} Pubg`)
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+
 if (args.length == 0) return reply(`Example: ${prefix + command} contoh nama group`)
     query = args.join(" ")
     get_result = await fetchJson(`https://api.lolhuman.xyz/api/groupwhatsapp2?apikey=fatherbot&query=${query}`)
@@ -5515,7 +5515,7 @@ await limitAdd(sender)
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-       if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+       
               if (isGame(sender, isPremium, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
               if (tebakanime.hasOwnProperty(sender.split('@')[0])) return reply("Selesein yg sebelumnya dulu atuh")
               get_result = await fetchJson(`https://api.lolhuman.xyz/api/tebakchara?apikey=${lolhumanapi}`)
@@ -5551,7 +5551,7 @@ await limitAdd(sender)
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-       if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+       
               if (isGame(sender, isPremium, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
               if (tebaklagu.hasOwnProperty(sender.split('@')[0])) return reply("Selesein yg sebelumnya dulu atuh")
               get_result = await fetchJson(`https://api.xteam.xyz/game/tebaklagu?apikey=${setting.xteamkey}&id=4mFuArYRh3SO8jfffYLSER`)
@@ -5588,7 +5588,7 @@ await limitAdd(sender)
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-       if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+       
               if (isGame(sender, isPremium, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
               if (tebaktebakan.hasOwnProperty(sender.split('@')[0])) return reply("Masih ada soal yg belum terjawab")
               get_result = await fetchJson(`https://api.xteam.xyz/game/tebaktebakan?APIKEY=${setting.xteamkey}`)
@@ -5623,7 +5623,7 @@ await limitAdd(sender)
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-       if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+       
               if (isGame(sender, isPremium, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
               if (kuismath.hasOwnProperty(sender.split('@')[0])) return reply("Selesein yg sebelumnya dulu atuh")
               get_result = await fetchJson(`https://api-yogipw.herokuapp.com/api/kuis/math`)
@@ -5657,7 +5657,7 @@ await limitAdd(sender)
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-       if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+       
               if (tebakgambar.hasOwnProperty(sender.split('@')[0])) return reply("Selesein yg sebelumnya dulu atuh")
               get_result = await fetchJson(`https://api.lolhuman.xyz/api/tebak/gambar?apikey=${setting.lolkey}`)
                     get_result = get_result.result
@@ -5719,7 +5719,7 @@ await limitAdd(sender)
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-       if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+       
               if (isGame(sender, isPremium, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
               if (tebakata.hasOwnProperty(sender.split('@')[0])) return reply("Masih ada soal yg belum terjawab")
               get_result = await fetchJson(`https://api.lolhuman.xyz/api/tebak/kata?apikey=fatherbot`)
@@ -5744,7 +5744,7 @@ await limitAdd(sender)
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-       if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+       
               if (isGame(sender, isPremium, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
               if (tebaklirik.hasOwnProperty(sender.split('@')[0])) return reply("Masih ada soal yg belum terjawab")
               get_result = await fetchJson(`https://api.lolhuman.xyz/api/tebak/lirik?apikey=${lolhumanapi}`)
@@ -5770,7 +5770,7 @@ await limitAdd(sender)
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-      if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+      
               if (isGame(sender, isPremium, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
               if (tebakjenaka.hasOwnProperty(sender.split('@')[0])) return reply("Masih ada soal yg belum terjawab")
               get_result = await fetchJson(`https://api.lolhuman.xyz/api/tebak/jenaka?apikey=${lolhumanapi}`)
@@ -5796,7 +5796,7 @@ await limitAdd(sender)
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-       if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+       
               if (isGame(sender, isPremium, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
               if (tebakimia.hasOwnProperty(sender.split('@')[0])) return reply("Masih ada soal yg belum terjawab")
               get_result = await fetchJson(`https://api.lolhuman.xyz/api/tebak/unsurkimia?apikey=${lolhumanapi}`)
@@ -5846,7 +5846,7 @@ await limitAdd(sender)
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-       if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+       
               if (isGame(sender, isPremium, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
               if (susunkata.hasOwnProperty(sender.split('@')[0])) return reply("Masih ada soal yg belum terjawab")
               get_result = await fetchJson(`https://api.lolhuman.xyz/api/tebak/susunkata?apikey=${lolhumanapi}`)
@@ -5871,7 +5871,7 @@ await limitAdd(sender)
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-       if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+       
               if (isGame(sender, isPremium, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
               if (asahotak.hasOwnProperty(sender.split('@')[0])) return reply("Masih ada soal yg belum terjawab")
               get_result = await fetchJson(`https://api.lolhuman.xyz/api/tebak/asahotak?apikey=${lolhumanapi}`)
@@ -5897,7 +5897,7 @@ await limitAdd(sender)
 if (isLimit(sender)) return
 await limitAdd(sender)
 
-       if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+       
               if (isGame(sender, isPremium, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
               if (caklontong.hasOwnProperty(sender.split('@')[0])) return reply("Masih ada soal yg belum terjawab")
               get_result = await fetchJson(`https://api.lolhuman.xyz/api/tebak/caklontong2?apikey=${lolhumanapi}`)
@@ -6204,7 +6204,7 @@ buttons = [{buttonId: `${prefix}bukti`,buttonText:{displayText: `KIRIM BUKTI TF`
 case 'pulsa':
        
        thu = await tino.getStatus(`${sender.split('@')[0]}@s.whatsapp.net`, MessageType.text)
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+
        groups = tino.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = tino.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
               ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
@@ -8025,7 +8025,7 @@ await limitAdd(sender)
 				if (isBanned) return reply("ANDA TELAH DI BANNED, HUBUNGI OWNER")
 if (isLimit(sender)) return
 await limitAdd(sender)
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+
 					     if ((isMedia && !tin.message.videoMessage || isQuotedImage) && args.length == 0) {
             const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(tin).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : tin
             const media = await tino.downloadAndSaveMediaMessage(encmedia)
@@ -9611,28 +9611,28 @@ if (budy.includes("Numa")){
 
         }
         if (budy.includes("#m")){
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+
 }
 if (budy.includes("!m")){
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+
 }
         if (budy.includes("#a")){
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+
 }
 if (budy.includes("!a")){
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+
 }
         if (budy.includes("#s")){
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+
 }
 if (budy.includes("!s")){
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+
 }
 if (budy.includes("bot")){
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+
 }
 if (budy.includes("Bot")){
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+
 }
 
 
@@ -9866,6 +9866,7 @@ console.log('[',color('TEXT','teal'),']',`Pesan : ${budy} Dari`, color(pushname)
 
 
  
+
 
 
 
